@@ -1,0 +1,47 @@
+body{
+    color: rgb(0, 2, 0);
+    margin: 0px;
+}
+
+tbody{
+    color:blueviolet;
+}
+
+caption, thead{
+    color: brown;
+    border: 2px solid black
+}
+
+.anav{
+    color: inherit; 
+    text-decoration: none;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.ulnav{
+    list-style-type: none;
+    display: flex;
+}
+
+.linav{
+    padding-right: 30px;
+}
+
+table{
+    margin: 20px;
+    border: 2px solid black;
+}
+
+tr{
+    border-right: 2px solid black;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+}
