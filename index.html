@@ -31,7 +31,7 @@
           }
 
           .accordion-button-custom {
-            background-color: #272832;   
+            background-color: #212529;   
             color: #ffffff;
             border-radius: 10px;
             padding: 15px; 
@@ -54,16 +54,32 @@
             color: #000000;
           }
 
-          /* Estilo para el contenedor de los items para asegurar que los bordes no se vean en el contenedor */
-          .accordion-item {
-            border-radius: 10px; /* Bordes redondeados en cada item */
-            margin-bottom: 10px; /* Separación entre los items */
+          .poker-card {
+            width: 250px; 
+            height: 350px;
+            border-radius: 15px; 
+            overflow: hidden; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            background-color: #212529;
+            border-color: #212529;
+            color: white;
+          }
+
+          .poker-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover; 
+          }
+
+          .placeholder-glow {
+            border-radius: 10px; 
           }
         </style>
         
     </head>   
     <body background="./assets/gitBackground.jpg">
       
+      <container class="container">
         <nav class="navbar navbar-dark bg-dark fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#" style="font-size: 20px; font-family: 'Arial', sans-serif;">Mi pagina web</a>
@@ -90,13 +106,8 @@
               </div>
             </div>
           </div>
-        </nav>
-      
-       
-
-          
-
-          
+          </nav>
+      </container>
 
         <div class="container my-5">          
           <div class="accordion accordion-flush my-5" id="accordionFlushExample">
@@ -163,34 +174,117 @@
             </button>
         </div>
 
-        <div class="container my-5">
-          <div class="card">
-            <img src="./assets/img/portadaFelicilandia.jpg" class="card-img-top" alt="..." width="100" height="75">
-          
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          
-          <div class="card" aria-hidden="true">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title placeholder-glow">
-                <span class="placeholder col-6"></span>
-              </h5>
-              <p class="card-text placeholder-glow">
-                <span class="placeholder col-7"></span>
-                <span class="placeholder col-4"></span>
-                <span class="placeholder col-4"></span>
-                <span class="placeholder col-6"></span>
-                <span class="placeholder col-8"></span>
-              </p>
-              <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
-            </div>
-          </div>
+        <div>
+          <h1>Gustos musicales</h1>
         </div>
+
+        <div class="my-5 d-flex justify-content-center gap-3">
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/portadaFelicilandia.jpg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Felicilandia</h5>
+                  <p class="card-text">Este album me gusta mucho  porque me da mucha paz y felicidad</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/sauzeBoys2.jpeg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sauce boyz 2</h5>
+                  <p class="card-text">Este album es uno de mis preferidos, ya que tiene trap, canciones felices, tristes, practicamente tiene de todo y es de mis preferidos para esuchar progrmando</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/$AD BOYZ 4 LIFE II.jpeg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">$AD BOYZ 4 LIFE II</h5>
+                  <p class="card-text">Este album es uno de mis preferidos para salir con mis amigos, para estar en ambiente, ya que me gustan mucho los corridos</p>                
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/PRIMERA MUSA.jpg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PRIMERA MUSA</h5>
+                  <p class="card-text">Este album es uno de mis preferidos del 2024 que tiene tanto canciones para dedicar a la chica que te gusta como para bailar y disfrutar de la musica</p>                
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="my-5 d-flex justify-content-center gap-3">
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/SAYONARA.jpeg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SAYONARA</h5>
+                  <p class="card-text">Este album tiene muchas subidas de emocion, bajadas, canciones para fiestas, es la convinacion perfecta de canciones para viajar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/YHLQMDLG.jpeg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">YHLQMDLG</h5>
+                  <p class="card-text">Este album es para mi el mejor album del genero urbano, tiene canciones de trap, canciones para bailar, canciones para reir, </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/AfroLOVA' 23.jpeg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">$AfroLOVA' 23</h5>
+                  <p class="card-text">Este es probablemente el mejor album de reels b, para mi es un album para esuchar tranquilo sentado mirando un paisaje</p>                
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card poker-card">
+                <img src="./assets/img/Swimming.jpg" class="card-img-top poker-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Swimming</h5>
+                  <p class="card-text">Probablemente el mejor album de Mac Miller, es un album que pudes esuchar cuando estes en un bajon que te pude ayudar a superarte a ti mismo</p>                
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
 
           
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
