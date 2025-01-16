@@ -1,0 +1,26 @@
+body {
+    background-image: url('../assets/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+  color: white;
+  text-align: center;
+}
+
+.poker-card {
+border-radius: 15px; 
+overflow: hidden; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+background-color: #212529;
+border-color: #212529;
+color: white;
+}
+
+.card-header{
+overflow: hidden; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}

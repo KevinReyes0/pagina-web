@@ -1,0 +1,199 @@
+.container * {
+  font-size: 15px;  
+  font-family: Arial, sans-serif; 
+  font-weight: bold;  
+  text-align: center;
+  color: #232755;
+}
+.container2 * {
+  font-size: 15px;  
+  font-family: Arial, sans-serif; 
+  font-weight: bold;  
+  color:#232755; 
+  text-align: left;
+}
+.container3 * {
+  font-size: 35px;  
+  font-family: Arial, sans-serif; 
+  font-weight: bold;  
+  color:white; 
+  text-align: center;
+  
+}
+.container4 * {
+  font-size: 40px;  
+  font-family: Arial, sans-serif; 
+  font-weight: bold;  
+  color:#232755;
+}
+
+.container5 * {
+    font-size: 30px;  
+    font-family: Arial, sans-serif;   
+    color:white; 
+    text-align: center;
+    
+}
+
+.container6 *{
+    font-size: 18px;  
+    font-family: Arial, sans-serif;   
+    color:white; 
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.figure{
+  background-color: white;
+}
+.img{
+  width: 200px;
+}
+.imgBi{
+  width: 100px;
+}
+.poker-card {
+  width: 500px; 
+  height: 500px;
+  background-color: white;
+  border-color: white;
+}
+.poker-img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.card-text {
+  font-family: Arial, sans-serif; 
+  font-weight: bold;  
+}
+
+.placeholder-glow {
+  border-radius: 10px; 
+}
+.navbar-custom {
+  background-color: #232755;
+}
+.navbar-custom .nav-link {
+  color: white;
+}
+.navbar-custom .navbar-brand {
+  color: white; 
+}
+.navbar-custom .nav-link:hover {
+  color: #f8f9fa; 
+}
+body {
+  margin: 0;
+}
+
+.blue-square {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 425px;
+    background-color: #232755; 
+  }
+
+
+  html,
+  body{
+      position: relative;
+      height: 100%;
+  }
+  
+  body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .swiper{
+      width: 100%;
+      padding: 150px 0 50px 0;
+  }
+  
+  .swiper-slide {
+    width: 200px;
+    height:215px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    padding: 40px;
+    text-align: center;
+      
+  }
+  
+  .icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .icons i{
+      font-size: 20px;
+      color:#FFB900
+  }
+  
+  .icons img{
+      width: 120px;
+  }
+  
+  .product-content {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .product-img{
+      flex-basis: 50%;
+      text-align: right;
+  }
+  
+  .product-img img{
+      width: 120px;
+  }
+
+  .poker-card2 {
+    width: 700px; 
+    height: 700px;
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #232755;
+    border-color: white;
+    color: white;
+    margin-right: 7rem;
+}
+
+.poker-img2 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+}
+
+.poker-card3 {
+    width: 100px; 
+    height: 100px;
+    background-color: white;
+    border-color: white;
+}
+
+.poker-card4 {
+    width: 700px; 
+    height: 700px;
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #232755;
+    border-color: white;
+    color: white;
+    margin-left: 7rem;
+}
+
+
+
