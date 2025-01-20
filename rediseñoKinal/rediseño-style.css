@@ -1,4 +1,4 @@
-.container * {
+.container1 * {
   font-size: 15px;  
   font-family: Arial, sans-serif; 
   font-weight: bold;  
@@ -43,6 +43,25 @@
     text-decoration: none;
     
 }
+
+.container7 *{
+  font-size: 18px;  
+  font-family: Arial, sans-serif;   
+  color:white; 
+  text-align: left;
+  text-decoration: none;
+  
+}
+
+.container8 * {
+  font-size: 13px;  
+  font-family: Arial, sans-serif;   
+  color:white; 
+  text-align: left;
+  text-decoration: none;
+}
+
+
 
 .figure{
   background-color: white;
@@ -195,5 +214,178 @@ body {
     margin-left: 7rem;
 }
 
+.logo-reverse{
+  width: 200px;
+  height: 70px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;     
+  background-color: #232755; 
+  color: #fff;           
+  padding: 40px 0;       
+}
+
+.footer .container {
+  max-width: 1200px;      
+  width: 100%;
+}
+
+.footer .row {
+  width: 100%;         
+  margin: 0;
+}
+
+.footer ul {
+  list-style: none;      
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: inherit;    
+}
+
+.footer .d-flex {
+  gap: 10px;            
+}
+
+.container {
+  max-width: 100%; 
+  padding: 0 16px; 
+  overflow-x: hidden; 
+}
+
+.row-cols-1 {
+  display: flex; 
+  justify-content: center; 
+  gap: 16px; 
+  flex-wrap: wrap;
+}
+
+.card2 {
+  width: 250px; 
+  height: 350px;
+  border-radius: 8px;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #fdb500;
+}
+
+.card3 {
+  width: 250px; 
+  height: 350px; 
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #7d0a42;
+}
+
+.card4 {
+  width: 250px; 
+  height: 350px; 
+  border-radius: 8px;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #23376d;
+}
+
+.card5 {
+  width: 250px; 
+  height: 350px; 
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-between;
+  background-color: #eb7207;
+}
+
+.card2 .card-img-top {
+  width: 100%; 
+  height: auto; 
+  max-height: 50%; 
+  object-fit: cover;
+}
+
+.card2 .card-body {
+  flex-grow: 1; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  padding: 16px;
+}
+
+.card3 .card-img-top {
+  width: 100%; 
+  height: auto; 
+  max-height: 50%; 
+  object-fit: cover; 
+}
+
+.card3 .card-body {
+  flex-grow: 1; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  padding: 16px;
+}
 
 
+.card4 .card-img-top {
+  width: 100%; 
+  height: auto; 
+  max-height: 50%; 
+  object-fit: cover;
+}
+
+.card4 .card-body {
+  flex-grow: 1;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-align: center; 
+  padding: 16px;
+}
+
+
+.card5 .card-img-top {
+  width: 100%;
+  height: auto; 
+  max-height: 50%; 
+  object-fit: cover;
+}
+
+.card5 .card-body {
+  flex-grow: 1; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-align: center; 
+  padding: 16px;
+}
+
+.imgOp{
+  width: auto;
+  height: 100px;
+}
